@@ -168,6 +168,50 @@ main{
 /* second download button */
 .resume button{
   margin:  30px 470px 0;
-  text-align: center;
+}
+
+/* footer & form */
+.footer{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+  margin-left: -400px;
+  margin-right: -500px;
+  padding: 30px 100px 150px 250px;
+}
+.footer .section-title{
+  text-align: left;
+  margin-top: 50px;
+}
+.footer input{
+  display: block;
+}
+.footer input{
+  height: 40px;
+  width: 350px;
+}
+.footer input, textarea{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section-descripttion{
+  color: #474747;
+}
+.footer-icons{
+  margin-top: 25px;
+}
+.footer-icons img{
+  margin-right: 25px;
+}
+.form-div{
+  padding-bottom: 100px;
+  border: 10px solid black;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* margin-left: 100px; */
 }
 
