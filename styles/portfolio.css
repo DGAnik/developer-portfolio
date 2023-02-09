@@ -77,10 +77,11 @@ main{
   border-radius: 10px;
 }
 .section-title{
+  text-align: center;
   color: #181818;
   font-weight: 700;
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .section-description{
   color: #757575;
@@ -129,3 +130,44 @@ main{
   color: #757575;
   margin-top: 30px;
 }
+/* Resume section */
+.resume-container{
+  display: flex;
+  gap: 70px;
+}
+.resume-content{
+
+}
+.resume-content-title{
+  color: #474747;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume-item{
+  border-bottom: 2px solid black;
+}
+.item-title{
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.item-subtitle{
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.item-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+/* second download button */
+.resume button{
+  margin:  30px 470px 0;
+  text-align: center;
+}
+
